@@ -3,12 +3,15 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-var numerouno;
-var numerodos;
-var resultado;
-numerouno=document.getElementById("numeroUno").value;
-numerodos=document.getElementById("numeroDos").value;
-resultado=
-parseInt
+/*	
+lleve un largo rato modificando los codigos, insistiendo con que no habia error
+hasta que finalmente note una A mayuscula en el alert */
+var numeroUno=document.getElementById("numeroUno").value;
+var numeroDos=document.getElementById("numeroDos").value;
+var resultado=parseInt(numeroUno)+parseInt(numeroDos);
+alert("resultado "+resultado);
+
+
+
 }
 
